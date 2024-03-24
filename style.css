@@ -1,0 +1,50 @@
+h3{color:#990055;text-align:center;}
+h4{color:#590095;font-size:15pt;margin-left:30%}
+h5{color:#146;font-size:14pt;margin-bottom:-10px;margin-left:5%}
+figcaption{text-align:center}
+body{background-color:pink}
+#maket{width:100%;}
+TD{vertical-align:top;padding:5px;}
+   TD#lev{width:550px;background:#fa1;}
+   TD#prav{width:500px;background:#2f3;}
+   TD#levcool{width:550px;background:#5a5}
+   TD#pravcool{width:550px;background:#f93}
+i{color:#505;font-size:16px;margin-left:20px}
+b{color:#0055ff;font-size:14pt;margin-left:15%}
+a{font-size:15pt;color:#005555;margin-left:10%}
+li{font-size:13pt;color:#550a0f;font-style:oblique;}
+ol{font-size:14pt;color:#5500aa;}
+ul{font-size:14pt;color:#a00}
+hr{background-color:#ff0;border:none;height:1pt;}
+p{margin-bottom:10px;margin-left:15%;font-size:16px;color:#333}
+punkt{color:black}
+audio{background-color:pink}
+img{}
+________________________________________________________________________
+Буря мглою небо кроет,
+Вехри снежные крутя.
+А.С. Пушкин
+Установка цветов по умолчанию для переднего плана и фона в текстовых окнах.
+
+system("color xx"); первый х-фон, второй -текст
+
+  цвета       Атрибуты цветов для текстовых окон
+
+Атрибуты цветов задаются в виде ДВУХ шестнадцатеричных цифр -- первая
+задает цвет фона, а вторая определяет цвет переднего плана.  Каждая цифра может
+иметь следующие значения:
+
+    0 = Черный      8 = Серый
+    1 = Синий       9 = Светло-синий
+    2 = Зеленый     A = Светло-зеленый
+    3 = Голубой     B = Светло-голубой
+    4 = Красный     C = Светло-красный
+    5 = Лиловый     D = Светло-лиловый
+    6 = Желтый      E = Светло-желтый
+    7 = Белый       F = Ярко-белый
+
+Если аргумент не указан, команда восстанавливает исходный выбор цветов,
+каким он был на момент запуска CMD.EXE.  Это значение извлекается из
+текущего текстового окна, из значения ключа /T или из значения параметра
+реестра DefaultColor.
+Для продолжения нажмите любую клавишу . . .
