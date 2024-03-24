@@ -1,5 +1,5 @@
 
 esho "Hello Git";
-esho "Hello Git"2;
+esho "что это значит";
 echo "hello Giter's"
 esho "11112222"
