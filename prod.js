@@ -1,5 +1,5 @@
 let prod;
-prod='<table><caption>Тоже таблица</caption>'
+prod='<table><caption>Тоже какая-то таблица</caption>'
 +'<td id="lev">'
 +'</td><td id="prav">'
 +'</td></table>'
