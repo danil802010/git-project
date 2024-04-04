@@ -5,11 +5,11 @@ prod='<table><caption>Тоже какая-то таблица</caption>'
 +'</td><td id="prav">'
   +'<a>А это наша правая колонка</a>'
    +'<a>Поэкспериментируем снова</a><i> (пишем программу)</i><br>'
-  +'Function.prototype.defer=function(ms){<br>'
+  +'<li>Function.prototype.defer=function(ms){<br>'
 	+'  setTimeout(this, ms);}<br>'
   +'function f(){<br>'
 	+'  alert("Privet!");}<br>'
 +'  f.defer(2000); <i>//Privet!,2 sec</i><br>'
-+'</td></table>'
++'</li></td></table>'
 
 document.write(prod);
