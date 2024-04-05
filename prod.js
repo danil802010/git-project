@@ -5,7 +5,7 @@ prod='<table><caption>Тоже какая-то таблица</caption>'
 +'</td><td id="prav">'
   +'<a>А это наша правая колонка</a>'
    +'<a>Поэкспериментируем снова</a><i> (пишем программу)</i><br>'
-  +'<li>
+  +'<li>'
 +'</li></td></table>'
 
 document.write(prod);
