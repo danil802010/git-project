@@ -37,6 +37,7 @@ prod='<table><caption>Тоже какая-то таблица</caption>'
   +'var cM=new CM(10000);<br>'
   +'cM.sWA(50);<br>'
   +'cM.run(); <i>//Кофе готов!</i><br>'
+	+'<a>Хомяки, туды их в качель!</a><br>'
 +'</td></table>'
 
 document.write(prod);
