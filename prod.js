@@ -1,7 +1,7 @@
 let prod;
 prod='<table border="1"><caption>Тоже какая-то таблица</caption>'
 +'<td id="lev">'
- +'<table><caption>Зарезервированные слова</caption>'
+ +'<table border="1"><caption>Зарезервированные слова</caption>'
 +'<tr><td>abstract</td><td>else</td><td>instanceof</td><td>switch</td></tr>'
 +'<tr><td>boolean</td><td>enum</td><td>int</td><td>synchronized</td></tr>'
 +'<tr><td>brak</td><td>export</td><td>interface</td><td>this</td></tr>'
