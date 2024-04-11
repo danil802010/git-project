@@ -4,7 +4,12 @@ prom='<table><td id="pravcool">'
   +'<li>let result=условие ? значение1 : значение2;</li><br>'
 +'</td><td id="lpcool">'
 +'</td><td id="levcool">'
-+'</td></table>'
+  +'<li>let year=prompt("В каком году был открыт JS?"," ");<br>'
++'if(year==2015) alert("это правильно");<br>'
++'else if(year<2015) alert("да, нет-же!");<br>'
++'else if(year>2015) alert("С чего ты взял?");<br>'
++'<i>Везде правильный ответ</i><br>'
++'</li></td></table>'
 
 document.write(prom);
 
