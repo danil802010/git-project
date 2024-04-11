@@ -9,6 +9,13 @@ prom='<table><td id="pravcool">'
 +'else if(year<2015) alert("да, нет-же!");<br>'
 +'else if(year>2015) alert("С чего ты взял?");<br>'
 +'<i>Везде правильный ответ</i><br>'
+  +'let age=prompt("Сколько лет?","");<br>'
++'let message=(age<3)?"привет, малыш":<br>'
+  +' (age<18)?"привет, кент":<br>'
+   +'(age<100)?"доброго здоровьичка":<br>'
+   +'"вот это возрастина";<br>'
+   +'alert(message);<br>'
+   +'<i>Аналогично</i><br>'
 +'</li></td></table>'
 
 document.write(prom);
