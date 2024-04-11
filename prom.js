@@ -1,5 +1,5 @@
 let prom;
-prom='<table><td id="levvcool">'
+prom='<table><td id="levcool">'
   +'<a>Пример использования программы:</a><br>'
   +'<li>let result=условие ? значение1 : значение2;</li><br>'
 +'</td><td id="lpcool">'
