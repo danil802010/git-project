@@ -1,5 +1,5 @@
 let prom;
-prom='<h4>зырк</h4><table><td id="levcool">'
+prom='<table><td id="levcool">'
   +'<a>Пример использования программы:</a><br>'
   +'<li>let result=условие ? значение1 : значение2;</li><br>'
 	 +'<ul><h4 style="margin-left:5%">Операторы нулевого слияния и присваивания: <a>??,??=</a></h4>'
