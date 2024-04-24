@@ -420,7 +420,7 @@ prod='<table><td id="levcool"><h5>Левая размазня</h5>'
 +'</td><td id="ipcool">'
 +'</td><td id="pravcool"><h5>Правая размазня</h5>'
 +'</td></table>'
-
+//prom,prod
 document.write(prod);
 
 
