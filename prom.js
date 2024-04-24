@@ -390,6 +390,40 @@ prom='<table><td id="kr"></td><td id="levcool">'
 +'</ul>'	
 	+'</td></table>'
 
-document.write(prom);
+
+let prod;
+prod='<table><td id="levcool"><h5>Левая размазня</h5>'
++'<ul><li><i>Результат функции с пустым </i><a style="margin:0">return </a><i>или без него -</i>'
++'<a>undefined:</a> <br>'
++'function doNothing(){<i>/*pusto*/</i>}<br>'
++'alert(doNothing()===undefined); <i>//true</i><br>'
++'<i>return надо прямо указывать, к каким данным он относится</i><br></li><li>'
++'<a>Выбор имени функции:</a><br>'
++'<ul><i>Если функция начинается с:</i><br>'
++'<li><a>"show" -</a>что-то показывают<i>(showMessage())</i></li>'
++'<li><a>"get..." -</a>возвращают значение<i>(getAge())</i></li>'
++'<li><a>"calc..." -</a>что-то вычисляют<i>(calcSum())</i></li>'
++'<li><a>"create" -</a>создающие функции<i>(createForm())</i></li>'
++'<li><a>"check..." -</a>проверяют и возвращают логическое значение'
++'<i>(checkPermission())</i></li>'
++'<li><a>Функции == Комментарии</a><br><i>найдём простое числишко</i><br>'
++'let n=prompt("finish","");<br>'
++'function showPs(n){<br>'
+	+'nextP:for(let i=2;i<n;i++){<br>'
+		+'for(let j=2;j<i;j++){<br>'
+		+'	if(i%j==0)continue nextP;}<br>'
+	+'	alert(i); <i>//простое</i>}}<br>'
++'showPs(n); <i>//на 20:2,3,5,7,11,13,17,19</i><br>'
++'</li>'
++'</ul>'
++'</li></ul>'
++'</td><td id="ipcool">'
++'</td><td id="pravcool"><h5>Правая размазня</h5>'
++'</td></table>'
+
+document.write(prod)+prom;
+
+
+
 
 
