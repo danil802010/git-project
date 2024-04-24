@@ -421,7 +421,7 @@ prod='<table><td id="levcool"><h5>Левая размазня</h5>'
 +'</td><td id="pravcool"><h5>Правая размазня</h5>'
 +'</td></table>'
 
-document.write(prod)+prom;
+document.write(prod);
 
 
 
