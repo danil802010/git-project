@@ -537,7 +537,7 @@ prod='<table><td id="levcool"><h5>Левая размазня</h5>'
 +'}} <i>//фигурная скобка закрывается,код внутри блока не доступен</i><br>'
 +'welcome(); <i>//третий раз выдал Privet(слажал)</i><br>'
 
-+'} <i>//Объявили позже, но Privet, Vasja(c Function Expression не работает)</i><br>'
+
 
 +'</li>'
 +'<li type="disc"></li></ul>'
