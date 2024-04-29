@@ -521,6 +521,7 @@ prod='<table><td id="levcool"><h5>Левая размазня</h5>'
 +'sayHi("Vasja");<br>'
 +'function sayHi(name){<br>'
 	+'alert(`Privet,${name}`);<br>'
+
 +'} <i>//Объявили позже, но Privet, Vasja(c Function Expression не работаeт)Пример '
 +'не писал</i><br>'
 +'<a>Ещё пример:</a><br>'
@@ -535,6 +536,8 @@ prod='<table><td id="levcool"><h5>Левая размазня</h5>'
 	+'	alert("Zdarova");<br>'
 +'}} <i>//фигурная скобка закрывается,код внутри блока не доступен</i><br>'
 +'welcome(); <i>//третий раз выдал Privet(слажал)</i><br>'
+
++'} <i>//Объявили позже, но Privet, Vasja(c Function Expression не работает)</i><br>'
 
 +'</li>'
 +'<li type="disc"></li></ul>'
