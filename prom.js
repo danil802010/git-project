@@ -579,9 +579,14 @@ prod='<table><td id="levcool"><h5>Левая размазня</h5>'
    +'()=>alert("Privet"):<br>'
   +' ()=>alert("Good day");<br>'
 +' welcome(); <i>//всё верно</i><br>'  
-+'</li>'
-+'</li>'
-+'</ul></td></table>'
++'</li></li>'
++'<li><a>Многострочные стрелочные функции</a><br>'
++'<i>Снова используем return</i><br>'
++'let sum=(a,b)=>{ <i>//пошло тело функции после "{"</i><br>'
+   +'let result=a*b;<br>'
+  +' return result; <i>//если скобки фигурные, то return обязательно</i><br>'
++'}; alert(sum(5,3)); <i>//15</i><br>'
++'</li></ul></td></table>'
 //prom,prod
 document.write(prod);
 
