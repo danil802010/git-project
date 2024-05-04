@@ -766,11 +766,27 @@ prod='<table><td id="levcool"><h5>Левая размазня</h5>'
 +'3. for(let i=0;i<10;i++){...}<br></li>'
 +'<li type="disc"><i>Переменная for(let...) видна только внутри цикла</i><br></li>'
 +'<li type="disc"><i>break/continue</i> разрешают выйти из итерации<br></li></ol>'
-+'</li>'
-+'</ul>'
++'</li></ul>'
 +'</td></table>'
-//prom,prod
-document.write(prod);
+//prom,prod,zikl
+let zikl;
+zikl='<table><td id="levcool">'
++'<h4>Циклы while и for </h4>'
++'<li><b>Цикл "while"</b><br>'
++'<i>while(condition){//kod}</i><br>'
++'let i=0;<br>'
++'while(i<3){ <br>'
+  +'alert(i);<br>'
++'i++;} <i>//выводит 0,1,2</i><br>'
++'</li>'
++'<li><b></b><br></li>'
++'<li><b></b><br></li>'
++'<li><b></b><br></li>'
++'<li><b></b><br></li>'
++'</td><td id="lpcool">'
++'</td><td id="pravcool">'
++'</td></table>'
+document.write(zikl);
 
 
 
