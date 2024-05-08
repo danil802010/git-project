@@ -1,6 +1,17 @@
 let prod;
 prod='<table border="1"><caption>Тоже какая-то таблица</caption>'
 +'<td id="lev">'
+
++'</td><td id="prav">'
+  +'<a>А это наша правая колонка</a><br>'
+    +'<ul><h4>export</h4> ставим:<br>'  
++'<li>перед объявлением переменных, функций и классов</li>'
++'<li>отдельно, при этом в фигурных скобках указывается, что именно экспортируется</li>'
++'</ul>'	
+	
++'</td></table>'
+
+document.write(prod);
  +'<table border="1"><caption>Зарезервированные слова</caption>'
 +'<tr><td>abstract</td><td>else</td><td>instanceof</td><td>switch</td></tr>'
 +'<tr><td>boolean</td><td>enum</td><td>int</td><td>synchronized</td></tr>'
@@ -19,13 +30,3 @@ prod='<table border="1"><caption>Тоже какая-то таблица</captio
 +'<tr><td>double</td><td>in</td><td>super</td><td></td></tr>'
 +'<tr><td></td><td></td><td></td><td></td></tr>'
 +'</table>'
-+'</td><td id="prav">'
-  +'<a>А это наша правая колонка</a><br>'
-    +'<ul><h4>export</h4> ставим:<br>'  
-+'<li>перед объявлением переменных, функций и классов</li>'
-+'<li>отдельно, при этом в фигурных скобках указывается, что именно экспортируется</li>'
-+'</ul>'	
-	
-+'</td></table>'
-
-document.write(prod);
