@@ -76,7 +76,7 @@ prod='<table border="1"><caption>Конструкция switch</caption>'
 +'   case 2:alert ("dva"); break;<br>'
   +' default: alert("no");<br>'
 +'} <i>//всё верно выдаёт</i><br>'
-
++'else {alert("ne v kurse");} <i>//всё верно выдаёт</i><br>'
 +'</li>'
 +'</ol>'
 +'</td><td id="prav">'
