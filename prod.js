@@ -338,8 +338,9 @@ prod='<table border="1"><caption>Конструкция switch</caption>'
 +'</ul>'
 +'<i>И последнее: </i><a>Function Declafation предпочтительнее</a><br>'
 +'<a><img src="https://i.postimg.cc/4H7DLF64/func.jpg"><br>Наслаждаемся</a>'
++'<br><i href="https://postimages.org"><img src="https://i.postimg.cc/52Yd8RxN/gdn.jpg"><br>Ещё картинку вставим:</i>'
 +'</ol>'		
-+'</td></table>'
++'</t0d></table>'
 
 document.write(prod);
  +'<table border="1"><caption>Зарезервированные слова</caption>'
