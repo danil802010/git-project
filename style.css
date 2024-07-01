@@ -4,20 +4,20 @@ h5{color:#146;font-size:14pt;margin-bottom:-10px;margin-left:5%}
 caption{font-size:16px;color:maroon}
 figcaption{text-align:center}
 body{background-color:pink}
-#maket{width:100%}
+//#maket{width:100%}
 table{width:100%;}
 TD{vertical-align:top;padding:5px;}
    TD#lev{width:600px;background:#fa1;}
-   TD#prav{width:550px;background:#2f3;}
+   TD#prav{width:600px;background:#2f3;}
    TD#levcool{width:600px;background:#5a5}
    TD#pravcool{width:550px;background:#f93}
    TD#lpcool{width:50px;background:#ff0}
    TD#kr{width:10px;background:yellow}
-i{color:#505;font-size:13pt;margin-left:20px}
+i{color:#505;font-size:13pt;margin-left:20px;}
 b{color:#0055ff;font-size:14pt;margin-left:15%}
 a{font-size:14pt;color:#005555;margin-left:10%}
 li{font-size:14pt;color:#550a0f;font-style:oblique;}
-ol{font-size:14pt;color:#5500aa;}
+ol{font-size:14pt;color:#5500aa;letter-spacing:1.3px}
 ul{font-size:14pt;color:#a00}
 hr{background-color:#ff0;border:none;height:1pt;}
 p{margin-bottom:10px;margin-left:15%;font-size:16px;color:#333}
@@ -25,3 +25,4 @@ punkt{color:black}
 audio{background-color:pink}
 img{}
 ________________________________________________________________________
+//text-decoration:underline - подчёркивание
